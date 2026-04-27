@@ -132,19 +132,19 @@ This project taught me that building a reliable AI system is not just about gett
 ---
 
 ## Project Structure
-app.py                  # Streamlit UI
-pawpal_system.py        # Core backend logic
-rag_advisor.py          # RAG retrieval and Gemini integration
-eval.py                 # Evaluation script
-eval_results.json       # Logged evaluation results
-knowledge_base/
-dog_nutrition.txt
-cat_nutrition.txt
-vet_visits.txt
-exercise_needs.txt
-common_symptoms.txt
-tests/
-test_pawpal.py        # 25 automated unit tests
-assets/
-architecture.png      # System architecture diagram
-model_card.md           # Reflection and ethics
+- app.py                  # Streamlit UI
+- pawpal_system.py        # Core backend logic
+- rag_advisor.py          # RAG retrieval and Gemini integration
+- eval.py                 # Evaluation script
+- eval_results.json       # Logged evaluation - results
+- knowledge_base/
+- dog_nutrition.txt
+- cat_nutrition.txt
+- vet_visits.txt
+- exercise_needs.txt
+- common_symptoms.txt
+- tests/
+- test_pawpal.py        # 25 automated unit    tests
+- assets/
+- architecture.png      # System architecture diagram
+- model_card.md           # Reflection and ethics
