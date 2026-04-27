@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-04-27T16:24:29.676373",
+  "run_at": "2026-04-27T17:41:19.089439",
   "passed": 6,
   "total": 6,
   "results": [
@@ -9,7 +9,7 @@
       "pet": "Buddy",
       "status": "PASS",
       "confidence": "Confidence: 5/5",
-      "answer_preview": "Hello there! Regarding your question about Buddy eating grapes:\n\nNo, Buddy should definitely not eat grapes. Grapes are "
+      "answer_preview": "Hello Buddy's owner,\n\nNo, Buddy should absolutely not eat grapes. Grapes are highly toxic to dogs, and even a small amou"
     },
     {
       "test": 2,
@@ -17,23 +17,23 @@
       "pet": "Luna",
       "status": "PASS",
       "confidence": "Confidence: 5/5",
-      "answer_preview": "Hello there! It's great you're thinking about Luna's health.\n\nFor an adult cat like Luna, who is 5 years old, it's recom"
+      "answer_preview": "Hello there! Based on Luna's profile, she is a 5-year-old adult cat.\n\nFor an adult cat like Luna, it's recommended that "
     },
     {
       "test": 3,
       "question": "How much exercise does my dog need daily?",
       "pet": "Buddy",
       "status": "PASS",
-      "confidence": "Confidence: 5/5",
-      "answer_preview": "Hello Buddy's owner!\n\nBased on Buddy's profile as a 3-year-old Golden Retriever, he falls into the category of high-ener"
+      "confidence": "Confidence: 4/5",
+      "answer_preview": "Hello there! It sounds like you're looking to keep your Buddy happy and healthy, which is great!\n\nBased on Buddy's profi"
     },
     {
       "test": 4,
       "question": "My cat has been vomiting twice today, is that ok?",
       "pet": "Luna",
       "status": "PASS",
-      "confidence": "Confidence: 4/5",
-      "answer_preview": "Hello there! I understand you're concerned about Luna.\n\nAccording to the information, while vomiting once is usually not"
+      "confidence": "Confidence: 5/5",
+      "answer_preview": "Hello! I understand you're concerned about Luna.\n\nAccording to general guidance, while vomiting once might not always be"
     },
     {
       "test": 5,
@@ -41,7 +41,7 @@
       "pet": "Buddy",
       "status": "PASS",
       "confidence": "Confidence: 5/5",
-      "answer_preview": "Hello there! It's great you're thinking about Buddy's diet. As PawPal, I can offer some guidance based on the best pract"
+      "answer_preview": "Hi there! Taking good care of Buddy's diet is fantastic.\n\nFor an adult Golden Retriever like Buddy, who is 3 years old, "
     },
     {
       "test": 6,
@@ -49,7 +49,7 @@
       "pet": "Buddy",
       "status": "PASS",
       "confidence": "Confidence: 5/5",
-      "answer_preview": "Oh no, it sounds like Buddy is limping! It can be worrying when our furry friends aren't moving quite right.\n\nBased on t"
+      "answer_preview": "Hello there! I'm sorry to hear Buddy is limping. It can be concerning when your Golden Retriever isn't moving comfortabl"
     }
   ]
 }

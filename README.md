@@ -153,3 +153,6 @@ This project taught me that building a reliable AI system is not just about gett
 ## Portfolio Reflection
 
 This project shows that I can take a working system and extend it into something smarter and more reliable. I built a retrieval pipeline from scratch, connected it to a live AI model, and designed guardrails to make the output trustworthy. I also wrote evaluation scripts to verify the system actually works rather than just assuming it does. As an AI engineer, I care about building things that are both functional and responsible.
+
+## Demo Walkthrough
+[Watch the demo on Loom] (https://www.loom.com/share/3b7b90ace1d24ec7907daaeebe90fce8)
