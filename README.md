@@ -33,6 +33,7 @@ The system has five components:
 3. **RAG Retriever** — keyword-based retrieval that selects the most relevant knowledge base files for each question
 4. **Knowledge Base** — five plain text files covering dog nutrition, cat nutrition, vet visits, exercise needs, and common symptoms
 5. **Gemini AI** — generates a personalized, grounded answer using the retrieved context and the pet's profile
+
 User Question
 │
 ▼
