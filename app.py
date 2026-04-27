@@ -242,3 +242,37 @@ else:
         ])
     else:
         st.info("No tasks match the selected filters.")
+# ---------------------------------------------------------------------------
+# Section 7 — Ask PawPal AI
+# ---------------------------------------------------------------------------
+st.divider()
+st.subheader("🤖 Ask PawPal AI")
+
+if not owner.pets:
+    st.info("Add a pet first before using the AI advisor.")
+else:
+    st.caption("Ask a care question about one of your pets. PawPal will retrieve relevant knowledge and give you a personalized answer.")
+
+    ai_pet = st.selectbox("Which pet is your question about?", [p.name for p in owner.pets], key="ai_pet")
+    ai_question = st.text_input("Your question", placeholder="e.g. Can Buddy eat grapes? How often should Luna visit the vet?")
+
+    if st.button("Ask PawPal"):
+        if not ai_question.strip():
+            st.warning("Please enter a question.")
+        else:
+            pet_obj = next(p for p in owner.pets if p.name == ai_pet)
+
+            with st.spinner("PawPal is thinking..."):
+                from rag_advisor import ask_pawpal
+                result = ask_pawpal(
+                    question=ai_question,
+                    pet_name=pet_obj.name,
+                    species=pet_obj.species,
+                    breed=pet_obj.breed,
+                    age=pet_obj.age,
+                    weight=pet_obj.weight,
+                )
+
+            st.markdown("**PawPal's Answer:**")
+            st.write(result["answer"])
+            st.caption(result["confidence"])
