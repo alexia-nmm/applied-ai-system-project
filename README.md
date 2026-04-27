@@ -48,6 +48,7 @@ Gemini API  ◄── Pet Profile (name, species, breed, age, weight)
 ▼
 Answer + Confidence Score ──► Streamlit UI
 
+![System Architecture](assets/architecture.png)
 The system architecture diagram is saved in `/assets/architecture.png`.
 
 ---
@@ -148,3 +149,7 @@ This project taught me that building a reliable AI system is not just about gett
 - assets/
 - architecture.png      # System architecture diagram
 - model_card.md           # Reflection and ethics
+
+## Portfolio Reflection
+
+This project shows that I can take a working system and extend it into something smarter and more reliable. I built a retrieval pipeline from scratch, connected it to a live AI model, and designed guardrails to make the output trustworthy. I also wrote evaluation scripts to verify the system actually works rather than just assuming it does. As an AI engineer, I care about building things that are both functional and responsible.
